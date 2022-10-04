@@ -1,0 +1,22 @@
+{
+  "name": "minilibrarysystem",
+  "version": "1.0.0",
+  "description": "mini library system with ejs for front-end, express for server, mongodb for database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Labite James",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.6.2",
+    "nodemon": "^2.0.20",
+    "path": "^0.12.7"
+  }
+}
